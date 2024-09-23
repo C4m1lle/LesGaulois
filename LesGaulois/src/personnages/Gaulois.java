@@ -34,10 +34,11 @@ public class Gaulois {
 
 	public static void main(String[] args) {
 		Gaulois asterix = new Gaulois("Asterix",8);
-		System.out.println(asterix.nom);
-		System.out.println(asterix);
-		asterix.parler("je suis asterix");
-		Romain caius = new Romain("Caius",4);
-		asterix.frapper(caius);
+		asterix.parler("Bonjour à tous");
+		Romain minus = new Romain("Minus",6);
+		minus.parler("UN GAU... UN GAUGAU...");
+		asterix.frapper(minus);
+		asterix.frapper(minus);
+		asterix.frapper(minus);
 	}
 }
